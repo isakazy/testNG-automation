@@ -12,7 +12,7 @@ public class Google {
     @Test
     public void Test1(){
 
-       Driver.getDriver().get(Config.getValue("instagram"));
+       Driver.getDriver().get("https://google.com");
 
 
     }
